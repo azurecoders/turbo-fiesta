@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "es2016",
+    "module": "NodeNext",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "moduleResolution": "nodenext",
+    "baseUrl": "src",
+    "outDir": "dist",
+    "sourceMap": true,
+    "noImplicitAny": true,
+    "paths": {
+      "controllers/*": ["controllers/*"],
+      "helpers/*": ["helpers/index*"]
+    }
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules"]
+}
